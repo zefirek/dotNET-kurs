@@ -14,6 +14,17 @@ namespace asp2._7
                 Console.WriteLine($"{a} i {b} są sobie równe");
             }
 
+            int c = 15;
+
+            if (c % 2 == 0)
+            {
+                Console.WriteLine($"\n\r{c} jest liczbą parzystą");
+            }
+            else
+            {
+                Console.WriteLine($"\n\r{c} jest liczbą nieparzystą");
+            }
+
         }
     }
 }
