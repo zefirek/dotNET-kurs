@@ -6,7 +6,14 @@ namespace asp2._7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 5;
+            int b = 5;
+
+            if (a == b)
+            {
+                Console.WriteLine($"{a} i {b} są sobie równe");
+            }
+
         }
     }
 }
