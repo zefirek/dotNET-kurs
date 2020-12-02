@@ -14,13 +14,9 @@ namespace asp2._7
                 Console.WriteLine($"{a} i {b} są sobie równe");
             }
 
-            string c = "";
-            int d;
-            
             Console.WriteLine("Podaj liczbę do sprawdzenia:");
-            c = Console.ReadLine();
-
-            Int32.TryParse(c, out d);
+            string c = Console.ReadLine();
+            Int32.TryParse(c, out int d);
 
             if (d % 2 == 0)
             {
