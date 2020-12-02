@@ -14,9 +14,15 @@ namespace asp2._7
                 Console.WriteLine($"{a} i {b} są sobie równe");
             }
 
-            int c = 15;
+            string c = "";
+            int d;
+            
+            Console.WriteLine("Podaj liczbę do sprawdzenia:");
+            c = Console.ReadLine();
 
-            if (c % 2 == 0)
+            Int32.TryParse(c, out d);
+
+            if (d % 2 == 0)
             {
                 Console.WriteLine($"\n\r{c} jest liczbą parzystą");
             }
