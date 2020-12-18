@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Transport.Model
+namespace Transport.Data.Models
 {
     public class Pojazd
     {

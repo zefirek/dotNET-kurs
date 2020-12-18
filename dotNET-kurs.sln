@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp2.7", "asp2.7\asp2.7.csproj", "{ADC69E73-3D81-4D4D-9F1F-00DC66B8D5E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport", "Transport\Transport.csproj", "{D8E76566-2657-4BBD-88F0-D1236B290D5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport", "Transport\Transport.csproj", "{D8E76566-2657-4BBD-88F0-D1236B290D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp6.3", "asp6.3\asp6.3.csproj", "{F601C447-4FB0-4481-83A9-8FA829EE1C23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D8E76566-2657-4BBD-88F0-D1236B290D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8E76566-2657-4BBD-88F0-D1236B290D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8E76566-2657-4BBD-88F0-D1236B290D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F601C447-4FB0-4481-83A9-8FA829EE1C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F601C447-4FB0-4481-83A9-8FA829EE1C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F601C447-4FB0-4481-83A9-8FA829EE1C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F601C447-4FB0-4481-83A9-8FA829EE1C23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

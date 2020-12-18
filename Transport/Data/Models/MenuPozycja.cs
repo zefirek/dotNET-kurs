@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Transport.Model
+namespace Transport.Data.Models
 {
     public class MenuPozycja
     {
@@ -10,9 +10,15 @@ namespace Transport.Model
         public string Tekst { get; set; }
         public string Pozycja { get; set; }
 
-        public MenuPozycja()
+        public MenuPozycja(int id)
         {
+            Id = id;
+        }
 
+        public MenuPozycja(int id, string tekst)
+        {
+            Id = id;
+            Tekst = tekst;
         }
 
 
