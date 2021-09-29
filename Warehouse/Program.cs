@@ -9,6 +9,7 @@ namespace Warehouse
     {
         //Stała
         public const string FILE_NAME = @"C:\WarehouseFiles\ImportFile.xlsx";
+
         static void Main(string[] args)
         {
             GenericService<Item> genericItemService = new GenericService<Item>();

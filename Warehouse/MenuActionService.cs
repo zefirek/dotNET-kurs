@@ -7,6 +7,7 @@ namespace Warehouse
     public class MenuActionService
     {
         private List<MenuAction> menuActions;
+
         public MenuActionService()
         {
             menuActions = new List<MenuAction>();
